@@ -25,7 +25,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h1>My First {{name}} {{1+1}} App</h1>\n    "
+                        template: "\n    <h1>My First {{name}} {{1+1}} App</h1>\n    <input type=\"text\" [(ngModel)]=\"hoge\">\n    <span>{{hoge}}</span>\n    "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
